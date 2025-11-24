@@ -66,8 +66,8 @@ export default function About() {
           </div>
 
           <div className="bg-card p-8 md:p-12 border border-white/5 rounded-sm relative group">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-            
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+
             <h3 className="text-2xl font-bold text-white mb-8 font-heading flex items-center gap-3">
               <span className="w-2 h-8 bg-accent block" />
               Experience
