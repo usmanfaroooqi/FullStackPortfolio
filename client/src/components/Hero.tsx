@@ -56,9 +56,11 @@ export default function Hero() {
             >
               View Projects <ArrowRight size={18} />
             </button>
-            <a href="/attached_assets/Profile (11)_1763924607756.pdf" download className="px-8 py-4 border border-white/20 text-white font-bold font-ui uppercase tracking-wider hover:bg-white/10 transition-colors duration-300 rounded-sm w-full sm:w-auto text-center block">
-              Download Resume
-            </a>
+            <a href="/resume.pdf" download 
+   className="px-8 py-4 border border-white/20 text-white font-bold font-ui uppercase tracking-wider hover:bg-white/10 transition-colors duration-300 rounded-sm w-full sm:w-auto text-center block">
+  Download Resume
+</a>
+
           </motion.div>
         </div>
 
